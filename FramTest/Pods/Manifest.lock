@@ -1,0 +1,42 @@
+PODS:
+  - AERecord (2.1.0)
+  - Alamofire (3.3.1)
+  - ButtonBackgroundColor (2.0.3)
+  - Kingfisher (2.3.1)
+  - Moya (6.4.0):
+    - Moya/Core (= 6.4.0)
+  - Moya/Core (6.4.0):
+    - Alamofire (~> 3.0)
+    - Result (~> 2.0)
+  - Result (2.0.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - AERecord
+  - Alamofire
+  - ButtonBackgroundColor
+  - Kingfisher
+  - Moya
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 73670b94292b8d8496c398a973f56ac67789ba9f
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  AERecord: 3a119dce2aa111b12bd605989d87e018929e6bc7
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  ButtonBackgroundColor: 888f49187590bf28da706b5c70e912c624b7efa4
+  Kingfisher: 6d3fbada4829cbc7b89e883e8218c28afeb64e42
+  Moya: 4d526954c8afd79820991393d40d7d8af756ceee
+  Result: 9e75e1111c774c6ac594e14907b15057053a7959
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: d760d2fa2d1b72d9fba9ab1a3e4c03fdd5670601
+
+COCOAPODS: 1.0.0.beta.6
